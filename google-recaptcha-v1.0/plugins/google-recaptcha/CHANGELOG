@@ -1,3 +1,6 @@
+[1.0.1 - 25.05.2023]
+	* fix ReCaptcha v3 not working and showing error in browser consoles
+
 [1.0 - 07.02.2023]
 	* initial release
 	* moved from myaac to plugin
