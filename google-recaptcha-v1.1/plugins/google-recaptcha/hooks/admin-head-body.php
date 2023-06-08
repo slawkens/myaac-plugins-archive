@@ -7,7 +7,7 @@ $configRecaptcha = config('google_recaptcha');
 if(getBoolean($configRecaptcha['enabled'])) {
 	global $logged;
 	if ($logged) {
-		return;
+		return; // do not display when logged in
 	}
 
 	if ($this->_type == HOOK_ADMIN_HEAD_END) {

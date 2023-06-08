@@ -11,7 +11,7 @@ if(!isset($template_place_holders['head_end'])) {
 $configRecaptcha = config('google_recaptcha');
 if(getBoolean($configRecaptcha['enabled'])) {
 	if (PAGE != 'account/create' && PAGE != 'account/manage') {
-		return;
+		return; // do not display on other pages
 	}
 
 	// insert into page head
