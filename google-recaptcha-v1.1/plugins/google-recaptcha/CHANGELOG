@@ -1,0 +1,13 @@
+[1.1 - 08.06.2023]
+	* copy config.php on install
+	* don't display on other pages than login and create
+	* fix config loading
+	* fix warning with v3_min_score
+	* other fixes
+
+[1.0.1 - 25.05.2023]
+	* fix ReCaptcha v3 not working and showing error in browser consoles
+
+[1.0 - 07.02.2023]
+	* initial release
+	* moved from myaac to plugin
